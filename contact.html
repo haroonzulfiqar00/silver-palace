@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Silver Palace</title>
+    <meta name="description"
+        content="Get in touch with Silver Palace for documentation, construction, and cleaning services. We are ready to assist you anytime.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER / NAVIGATION -->
+    <header class="navbar scrolled">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <i class="fa-solid fa-crown"></i> Silver<span>Palace</span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="documentation.html">Documentation</a></li>
+                    <li><a href="construction.html">Construction</a></li>
+                    <li><a href="cleaning.html">Cleaning</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="contact.html" class="btn btn-primary nav-cta">Get a Quote</a>
+            <button class="menu-toggle" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- PAGE HEADER -->
+    <section class="page-header"
+        style="background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&q=80'); background-size: cover; background-position: center;">
+        <div class="container text-center">
+            <h1>Get In Touch With Us</h1>
+            <p>We’re Ready to Assist You Anytime</p>
+        </div>
+    </section>
+
+    <!-- CONTACT INTRO & FORM SECTION -->
+    <section class="section">
+        <div class="container">
+
+            <div class="row gap-60">
+
+                <!-- Left Column: Form -->
+                <div class="col-md-7">
+                    <div class="contact-intro mb-4">
+                        <h2 class="section-title" style="font-size: 2rem;">Have questions about our services?</h2>
+                        <p class="lead-text">Need help with documentation, construction, or cleaning? Our team is ready
+                            to assist you quickly and professionally. Contact us today and let us handle your needs with
+                            care and expertise.</p>
+                    </div>
+
+                    <div class="form-container">
+                        <h3 class="form-heading"><i class="fa-regular fa-envelope"></i> Request a Free Quote</h3>
+                        <p class="text-muted mb-4">Fill out the form below and our team will contact you shortly.</p>
+
+                        <form action="https://formsubmit.co/silverpal786@gmail.com" method="POST" class="contact-form">
+
+                            <div class="form-group row gap-20">
+                                <div class="col-md-6">
+                                    <label for="fullName">Full Name</label>
+                                    <input type="text" id="fullName" name="Full Name" class="form-control"
+                                        placeholder="John Doe" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="tel" id="phone" name="Phone Number" class="form-control"
+                                        placeholder="+XXX XXX XXXX" required>
+                                </div>
+                            </div>
+
+                            <div class="form-group row gap-20">
+                                <div class="col-md-6">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="Email Address" class="form-control"
+                                        placeholder="john@example.com" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="serviceType">Service Type</label>
+                                    <select id="serviceType" name="Service Type" class="form-control" required>
+                                        <option value="" disabled selected>Select a Service</option>
+                                        <option value="Documentation Services">Documentation Services</option>
+                                        <option value="Construction Services">Construction Services</option>
+                                        <option value="Cleaning Services">Cleaning Services</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="Message" class="form-control" rows="5"
+                                    placeholder="How can we assist you today?" required></textarea>
+                            </div>
+
+                            <!-- FormSubmit Settings -->
+                            <input type="hidden" name="_subject" value="New Lead from Silver Palace Website">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+
+                            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+                                Submit Inquiry <i class="fa-solid fa-paper-plane" style="margin-left: 8px;"></i>
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Right Column: Info -->
+                <div class="col-md-5">
+
+                    <!-- Company Info Details -->
+                    <div class="contact-info-card">
+                        <h3>Contact Information</h3>
+                        <ul class="info-list">
+                            <li>
+                                <div class="info-icon"><i class="fa-solid fa-building"></i></div>
+                                <div>
+                                    <h5>Company Name</h5>
+                                    <p>Silver Palace</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div>
+                                    <h5>Phone</h5>
+                                    <p>+XXX XXX XXXX</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon"><i class="fa-solid fa-envelope"></i></div>
+                                <div>
+                                    <h5>Email</h5>
+                                    <p>silverpal786@gmail.com</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div>
+                                    <h5>Location</h5>
+                                    <p>[Your Office Address Here]</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="info-icon"><i class="fa-regular fa-clock"></i></div>
+                                <div>
+                                    <h5>Working Hours</h5>
+                                    <p>Sunday – Saturday: 9:00 AM – 8:00 PM</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Quick Options -->
+                    <div class="contact-info-card quick-options mt-4"
+                        style="background: linear-gradient(135deg, var(--primary-dark), var(--primary)); color: var(--white);">
+                        <h3 style="color: var(--white); border-bottom-color: rgba(255,255,255,0.2);">Quick Contact
+                            Options</h3>
+                        <p style="margin-bottom: 20px; color: rgba(255,255,255,0.9);">You can also reach us directly
+                            via:</p>
+
+                        <div class="quick-links">
+                            <a href="tel:+XXXXXXX" class="quick-btn"><i class="fa-solid fa-phone"></i> Phone Call</a>
+                            <a href="https://wa.me/XXXXXXX" target="_blank" class="quick-btn whatsapp"><i
+                                    class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                            <a href="mailto:info@silverpalace.com" class="quick-btn"><i
+                                    class="fa-solid fa-envelope"></i> Email</a>
+                        </div>
+
+                        <div class="response-time mt-4">
+                            <i class="fa-solid fa-bolt"></i> We aim to respond to all inquiries within <strong>24
+                                hours</strong>.
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CLOSING SECTION -->
+    <section class="section light-bg text-center">
+        <div class="container">
+            <h2 class="section-title">Your satisfaction is our priority.</h2>
+            <p class="lead-text mt-4">Let Silver Palace take care of your service needs — professionally and
+                efficiently.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <i class="fa-solid fa-crown"></i> Silver<span>Palace</span>
+                    </a>
+                    <p>Your integrated partner for premier documentation, construction, and cleaning services.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="documentation.html">Documentation</a></li>
+                        <li><a href="construction.html">Construction</a></li>
+                        <li><a href="cleaning.html">Cleaning</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fa-solid fa-location-dot"></i> 123 Business Avenue, City Center</li>
+                        <li><i class="fa-solid fa-phone"></i> +1 234 567 8900</li>
+                        <li><i class="fa-solid fa-envelope"></i> info@silverpalace.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Silver Palace. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS for Mobile Menu -->
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+
+</html>
