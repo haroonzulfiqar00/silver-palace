@@ -336,6 +336,7 @@ ul {
     display: flex;
     gap: 20px;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
 @keyframes fadeInUp {
@@ -902,6 +903,11 @@ ul {
 }
 
 @media (max-width: 768px) {
+    .hero-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
+
     .nav-links {
         position: fixed;
         top: 70px;
