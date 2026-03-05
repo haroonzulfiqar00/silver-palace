@@ -1870,10 +1870,14 @@ ul {
     color: var(--dark);
 }
 
+#contact_form {
+    scroll-margin-top: 100px;
+}
+
 .form-control {
     width: 100%;
     padding: 15px 20px;
-    border: 1px solid var(--light-gray);
+    border: 1px solid #377cf4;
     border-radius: 8px;
     font-family: inherit;
     font-size: 1rem;
